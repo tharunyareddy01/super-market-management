@@ -1,0 +1,15 @@
+{
+  "name": "tharunya-supermarket",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Two-server supermarket inventory management system",
+  "scripts": {
+    "server": "node server.js",
+    "client": "node client.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.4"
+  }
+}
